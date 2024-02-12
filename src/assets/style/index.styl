@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+body
+  font-family 'Figtree'
+
+button
+  outline 0
+  border 0
+
+
+--fallback-bc = #1f2937
+
+--fallback-nc = #d7dde4
+
+
+// :root {
+//   --s: .6971 .329 342.55;
+//   --er: .7176 .221 22.18;
+//   --p: .4912 .3096 275.75
+
+//   --s: #ff41c7;
+//   --er: #ff6f70;
+//   --p: #491eff;
+//   --a: #00cfbd;
+// }
+
+
+h1
+  font-weight 900
+  color --fallback-bc
+  font-size 4.2em
+
+h2
+  font-weight 300
+  color rgba(--fallback-bc, 0.7)
+  font-size 1.5em
+
+.grad
+  background-image: linear-gradient(90deg, #ff41c7 22%, #ff6f70 , #491eff 45%, #00cfbd);
+  background-clip  text
+  -webkit-text-fill-color transparent
+  &.blur
+    filter: blur(24px);
+
+button
+  background #2b3440
+  color --fallback-nc
+  font-size 1.125rem
+  font-family ui-sans-serif,system-ui
+  border-radius .5rem
+  width: 16rem;
+  height: 4rem;
+  font-weight 600
+  svg
+    width 24px
+    vertical-align middle
+    padding-left .25rem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
